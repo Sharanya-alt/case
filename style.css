@@ -1,0 +1,42 @@
+#logo {
+  height: 75px;
+  width: 100px;
+}
+
+.result {
+  background-color: lightgrey;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.results img {
+  width: 240px;
+}
+
+#final-statement {
+  margin-top: 50px;
+  border-radius: 10px;
+  background: coral;
+  box-shadow: 5px 5px 18px black;
+  padding-left: 5px;
+}
+
+.info {
+  position: fixed;
+  color: black;
+  bottom: 0;
+  width: 100%;
+  background-color: #4a3ffa;
+  line-height: 0.8;
+  text-align: center;
+  font-size: 15px;
+}
+
+.info a {
+  color: black;
+  font-size: 15px;
+}
+
+.info a:hover {
+  color: blue;
+}

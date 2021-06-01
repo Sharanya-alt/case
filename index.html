@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 class="display-2">Case Study <img src="logo.png" id="logo"></h1>
+            <hr>
+            <ol>
+                <div class="results">
+                    <li>
+                        <h1 id=answer>shoe/running shoe</h1>
+                        <b>Test image - </b><img src="shoe.jpg" id="captured_image" class="img-respnsive">
+                    </li>
+                    <p>output(MS Azure) -
+                        <span id="obj_name">shoe</span>
+                    </p>
+                    <p>output(mobilenet) -
+                        <span id="object_name" ></span>
+                    </p>
+                    <div class="result"> </div>
+                        <button onclick="check()">result</button>
+                        <hr>
+                        <p id="rPara"> </p>
+                   
+                </div>
+              
+            </ol>
+          
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </body>
+
+</html>
